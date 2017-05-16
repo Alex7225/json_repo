@@ -1,7 +1,6 @@
 from flask import Response
 from flask import request
-
-
+#comment_ja_dobavil
 def get_project_info():
     response_text = "<b>Hi. It's simple json repository based on Flask. Enjoy it.</b>"
     return Response(response=response_text,
